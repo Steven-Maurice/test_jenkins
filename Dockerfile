@@ -1,10 +1,5 @@
-FROM python:3.10
+FROM python:3.6-alpine
+
 
 COPY . /app
-WORKDIR /app
-
-RUN pip install Flask
-
-EXPOSE 5000
-
-CMD ["python", "app.py"]
+CMD ["python", "/app/main.py"]
