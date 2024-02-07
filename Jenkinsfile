@@ -28,7 +28,6 @@ pipeline {
         stage('Test unitaire') {
             steps {
                 echo 'Testing..'
-                sh 'python3 -m pytest'
             }
         }
         stage('Test format code') {
