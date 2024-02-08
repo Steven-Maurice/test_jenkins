@@ -5,7 +5,6 @@ pipeline {
     
     environment {
         PIP_CACHE_DIR = "${WORKSPACE}/.pip-cache"
-        CON = credentials('0cd30024-7a31-4bb7-9019-2f442dc75b65')
     }
 
     stages {
