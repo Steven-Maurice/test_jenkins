@@ -39,7 +39,7 @@ pipeline {
             steps {
                 echo 'Deploying..'
                             
-                echo 'login to dockerhub'
+                echo 'nouvelle action'
                 
             }
         }
